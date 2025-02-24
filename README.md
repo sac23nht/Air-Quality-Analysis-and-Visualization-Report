@@ -1,11 +1,12 @@
-# Air Quality Analysis of Poland, Switzerland, and Germany
+# Air Quality Analysis of Switzerland and Germany
 
 ## Project Overview
 
-This project focuses on the analysis of air quality data from Poland, Switzerland, and Germany using the Air Quality Analysis API. The objective is to collect, store, and visualize critical air quality parameters like PM2.5 and PM10. These parameters are essential for monitoring air pollution levels that affect public health. Interactive Grafana dashboards are used to display trends in real-time data, including line graphs, bar charts, and gauges.
+This project focuses on the analysis of air quality data from Switzerland and Germany using the Air Quality Analysis API. The objective is to collect, store, and visualize critical air quality parameters like PM2.5 and PM10. These parameters are essential for monitoring air pollution levels that affect public health. Interactive Grafana dashboards are used to display trends in real-time data, including line graphs, bar charts, and gauges.
 
-(images/Dashboard1.jpg)
-(images/Dashboard2.jpg)
+### Dashboards:
+- ![Grafana Dashboard Example 1](images/Dashboard1.jpg)
+- ![Grafana Dashboard Example 2](images/Dashboard2.jpg)
 
 ## Air Quality Parameters
 
@@ -33,13 +34,13 @@ The World Health Organization (WHO) and the Air Quality Index (AQI) provide stan
 ## Tools and Technologies Used
 
 - **Node-RED**: A flow-based development tool used to connect APIs, databases, and services. It fetches air quality data using HTTP GET requests from the Air Quality Analysis API, processes the response, and pushes the data into InfluxDB.
-- **InfluxDB**: A time-series database optimized for storing and querying time-stamped data, used to store air quality data for Poland, Switzerland, and Germany, including PM2.5, PM10, and timestamps.
+- **InfluxDB**: A time-series database optimized for storing and querying time-stamped data, used to store air quality data for Switzerland and Germany, including PM2.5, PM10, and timestamps.
 - **Grafana**: A visualization tool used to create interactive dashboards that connect to InfluxDB and display air quality data in various formats, such as line graphs, bar charts, and gauges.
 - **JSON**: JavaScript Object Notation used as the data format for API responses, which Node-RED processes to extract relevant air quality parameters.
 
 ## Dashboard Visualisations
 
-- **Data Sources**: InfluxDB buckets for Poland, Switzerland, and Germany.
+- **Data Sources**: InfluxDB buckets for Switzerland and Germany.
 - **Panels**:
   - Line graphs showing trends in PM2.5 and PM10 levels over time.
   - Bar charts comparing weekly averages.
@@ -90,7 +91,7 @@ The graphs display data in the following ways:
 
 The dashboards help answer important questions such as:
 - What was the highest PM2.5 value in Germany yesterday?
-- Is the current PM10 level in Poland within the safe range?
+- Is the current PM10 level in Switzerland within the safe range?
 - Show the weekly average PM2.5 values for Switzerland over the last 15 weeks.
 - How many times did PM10 levels exceed the unhealthy threshold in the last month?
 
