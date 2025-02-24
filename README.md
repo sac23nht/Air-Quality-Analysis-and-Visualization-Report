@@ -7,6 +7,8 @@ This project focuses on the analysis of air quality data from Switzerland and Ge
 ### Dashboards:
 ### Dashboard 1 for Analying and  Visualising Air Quality of Switzerland:
 - ![Grafana Dashboard 1](Dashboard1.jpg)
+
+### Dashboard 2 for Comparing and  Visualising of Air Quality between Switzerland and Germany:
 - ![Grafana Dashboard 2](Dashboard2.jpg)
 
 ## Air Quality Parameters
