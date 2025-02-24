@@ -4,8 +4,8 @@
 
 This project focuses on the analysis of air quality data from Poland, Switzerland, and Germany using the Air Quality Analysis API. The objective is to collect, store, and visualize critical air quality parameters like PM2.5 and PM10. These parameters are essential for monitoring air pollution levels that affect public health. Interactive Grafana dashboards are used to display trends in real-time data, including line graphs, bar charts, and gauges.
 
-![Grafana Dashboard Example 1](images/Dashboard1.jpg)
-![Grafana Dashboard Example 2](images/Dashboard2.jpg)
+(images/Dashboard1.jpg)
+(images/Dashboard2.jpg)
 
 ## Air Quality Parameters
 
